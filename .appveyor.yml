@@ -2,7 +2,7 @@
 environment:
   nodejs_version: "12"
 
-before_build:
+before_install:
   - choco install nodejs
   - choco install 7zip
 
