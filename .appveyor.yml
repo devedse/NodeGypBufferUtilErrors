@@ -2,12 +2,12 @@
 environment:
   nodejs_version: "12"
 
-before_install:
+before_build:
   - choco install nodejs
   - choco install 7zip
 
 # Install scripts. (runs after repo cloning)
-install:
+build:
   # Get the latest stable version of Node.js or io.js
   #- ps: Install-Product node $env:nodejs_version
   # Output useful info for debugging.
@@ -17,4 +17,4 @@ install:
   - npm install
 
 # Don't actually build.
-build: off
+#build: off
