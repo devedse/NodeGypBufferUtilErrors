@@ -1,6 +1,8 @@
 # NodeGypBufferUtilErrors
 When doing an install of Web3 with the latest version of Node & NPM it shows errors even though the npm install seems to complete
 
+For Linux I don't see any errors. (See Travis build)
+
 ## Build status
 
 | Travis (Linux/Osx build) | AppVeyor (Windows build) |
