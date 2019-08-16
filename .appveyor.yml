@@ -7,7 +7,7 @@ before_build:
   - choco install 7zip
 
 # Install scripts. (runs after repo cloning)
-build:
+build_script:
   # Get the latest stable version of Node.js or io.js
   #- ps: Install-Product node $env:nodejs_version
   # Output useful info for debugging.
